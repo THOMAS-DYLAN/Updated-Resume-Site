@@ -1,5 +1,5 @@
-$("#resume-tab").hide(1);
 $("#roulette-tab").hide(1);
+$("#landing-tab").hide(1);
 $("#gallery").hide(1)
 $(".landing-btn").on("click", funciton () {
     $("#landing-tab").show(1); 
