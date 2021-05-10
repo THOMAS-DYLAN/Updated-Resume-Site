@@ -1,0 +1,86 @@
+#ppc-upgrades {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#ppc-upgrades button {
+  margin-bottom: 4px;
+  text-align: right;
+  height: 10%;
+  width: 100%;
+}
+
+#pps-upgrades {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+#pps-upgrades button {
+  margin-bottom: 3px;
+  text-align: right;
+  height: 6.66666666667%;
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color: #593;
+  color: white;
+}
+
+body {
+  background-color: #593;
+  color: white;
+}
+
+#clicker .tax {
+  margin-bottom: -78px;
+  height: 100px;
+  width: 50%;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+#clicker .tax .taxes {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 470;
+  font-family: sans-serif;
+}
+
+#clicker .tax .taxes .val {
+  margin-left: 65px;
+  font-style: normal;
+}
+
+#clicker .tax-bar-wrap {
+  background: #593;
+  border: 1px black solid;
+}
+
+#clicker .tax-bar {
+  height: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(red), to(#594));
+  background: linear-gradient(to right, red, #594);
+}
+
+#clicker .tax-bar:hover {
+  background: -webkit-gradient(linear, left top, right top, from(red), to(#599));
+  background: linear-gradient(to right, red, #599);
+}
+
+#clicked {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: center;
+  border: none;
+  background: url("dollar (1).jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 90%;
+}
