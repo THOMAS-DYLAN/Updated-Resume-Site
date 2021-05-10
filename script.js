@@ -1,20 +1,23 @@
-        $("#resume-tab").hide(1);
-        $("#landing-tab").show(1);
-        $("#roulette-tab").hide(1);
-        $("#gallery").hide(1)
-    })
-    $(".gallery-btn").on("click", function () {
-        $("#resume-tab").hide(1);
-        $("#landing-tab").hide(1);
-        $("#roulette-tab").hide(1);
-        $("#gallery").show(1);
-    })
-    $(".roulette-btn").on("click", function () {
-        $("#resume-tab").hide(1);
-        $("#landing-tab").hide(1);
-        $("#roulette-tab").show(1);
-        $("#gallery").hide(1);
-    })
+$("#resume-tab").hide(1);
+$("#roulette-tab").hide(1);
+$("#gallery").hide(1)
+$(".landing-btn").on("click", funciton () {
+    $("#landing-tab").show(1); 
+    $("#resume-tab").hide(1);
+    $("#roulette-tab").hide(1);
+    $("#gallery").hide(1);
+})
+$(".gallery-btn").on("click", function () {
+    $("#resume-tab").hide(1);
+    $("#landing-tab").hide(1);
+    $("#roulette-tab").hide(1);
+    $("#gallery").show(1);
+})
+$(".roulette-btn").on("click", function () {
+    $("#resume-tab").hide(1);
+    $("#landing-tab").hide(1);
+    $("#roulette-tab").show(1);
+    $("#gallery").hide(1);
 })
 //roulette\\
 let tokensPlaced = 0;
