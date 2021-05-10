@@ -1,0 +1,68 @@
+html {
+    width: 99%;
+    height: 95vh;
+    background-color: blue;
+    body {
+        margin-left: 32%;
+        #textField{
+            background-color: black;
+            text-align: right;
+            font-size: medium;
+            color: white;
+            width: 59%;
+            margin-left: -0.46%;
+            height: 5vh;
+            border: 2px black solid;
+        }
+        button {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            margin-left: -5px;
+            width: 15%;
+            height: 15vh;
+            border: 1px solid white;
+            &:hover{
+                border: 4px solid white;
+            }
+        }
+        .change {
+            background-color: rgb(255, 221, 71);
+            color: black;
+            border: 1px solid black;
+            &:hover{
+                border: 4px solid black;
+            }
+        }
+        .top {
+            background-color: rgb(255, 221, 71);
+            display: inline;
+            color: black;
+            border: 1px solid black;
+            &:hover{
+                border: 4px solid black;
+            }
+        }
+        .bottom{
+            width: 20%;
+            height: 15vh;
+        }
+        .equals{
+            background-color: rgb(255, 221, 71);
+            color: black;
+            border: 1px solid black;
+            &:hover{
+                border: 4px solid black;
+            }
+        }
+        .dot{
+            background-color: rgb(255, 221, 71);
+            color: black;
+            font-weight: bolder;
+            border: 1px solid black;
+            &:hover{
+                border: 4px solid black;
+            }
+        }
+    }
+}
