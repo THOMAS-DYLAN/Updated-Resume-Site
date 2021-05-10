@@ -1,4 +1,3 @@
-
 $("#roulette-tab").hide(1);
 $("#resume-tab").hide(1);
 $("#gallery").hide(1);
