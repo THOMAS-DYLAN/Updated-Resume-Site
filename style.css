@@ -1,300 +1,300 @@
 body {
-  background-color: black;
+    background-color: black;
 }
 
 body img {
-  height: 100px;
-  width: 200px;
+    height: 100px;
+    width: 200px;
 }
 
 body img:hover {
-  border: 2px white solid;
+    border: 2px white solid;
 }
 
 body #landing-tab {
-  width: 100%;
-  height: 90.5vh;
-  background: white top right;
-  background-size: cover;
-  position: relative;
+    width: 100%;
+    height: 90.5vh;
+    background: white top right;
+    background-size: cover;
+    position: relative;
 }
 
 body #landing-tab::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 body #landing-tab .landing-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 15px;
-  color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    color: black;
 }
 
 body #landing-tab h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
-  font-family: fantasy;
-  color: black;
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: fantasy;
+    color: black;
 }
 
 body #landing-tab h1:hover {
-  color: gold;
+    color: gold;
 }
 
 body #landing-tab h2 {
-  font-weight: bold;
-  color: black;
-  margin: 20px;
-  font-size: 24px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 body #landing-tab h2:hover {
-  color: silver;
+    color: silver;
 }
 
 body #landing-tab .btn-scroll {
-  transition: 0.5s;
-  color: black;
+    transition: 0.5s;
+    color: black;
 }
 
 body #landing-tab .btn-scroll i {
-  font-size: 48px;
-  border-radius: 25px;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-  display: inline-flex;
+    font-size: 48px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    display: inline-flex;
 }
 
 body #resume-tab {
-  font-family: sans-serif;
-  background-color: black;
-  color: #fff;
-  position: relative;
-  background: transparent;
+    font-family: sans-serif;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    background: transparent;
 }
 
 body #resume-tab a {
-  background-color: black;
-  color: silver;
-  text-decoration: none;
+    background-color: black;
+    color: silver;
+    text-decoration: none;
 }
 
 body #resume-tab a:hover {
-  color: red;
-  text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
 body #resume-tab .skills {
-  margin-bottom: -10px;
-  background-color: black;
-  padding-top: 10px;
+    margin-bottom: -10px;
+    background-color: black;
+    padding-top: 10px;
 }
 
 body #resume-tab .skills .progress {
-  height: 45px;
-  display: block;
-  background: none;
-  border-radius: 0;
+    height: 45px;
+    display: block;
+    background: none;
+    border-radius: 0;
 }
 
 body #resume-tab .skills .progress span {
-  color: yellow;
-  font-size: medium;
+    color: yellow;
+    font-size: medium;
 }
 
 body #resume-tab .skills .progress .skills {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 470;
-  font-family: sans-serif;
-  background-color: black;
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 470;
+    font-family: sans-serif;
+    background-color: black;
 }
 
 body #resume-tab .skills .progress .skills .val {
-  float: right;
-  font-style: normal;
-  background-color: black;
+    float: right;
+    font-style: normal;
+    background-color: black;
 }
 
 body #resume-tab .skills .progress-bar-wrap {
-  background: black;
-  border: 1px white solid;
+    background: black;
+    border: 1px white solid;
 }
 
 body #resume-tab .skills .progress-bar {
-  height: 15px;
-  background: linear-gradient(to right, #5f5d5d, white);
+    height: 15px;
+    background: linear-gradient(to right, #5f5d5d, white);
 }
 
 body #resume-tab .skills .progress-bar:hover {
-  background: linear-gradient(to right, black, white);
+    background: linear-gradient(to right, black, white);
 }
 
 body #resume-tab .resume {
-  background-color: black;
+    background-color: black;
 }
 
 body #resume-tab .resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: yellow;
-  background-color: black;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: yellow;
+    background-color: black;
 }
 
 body #resume-tab .resume .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid silver;
-  position: relative;
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid silver;
+    position: relative;
 }
 
 body #resume-tab .resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  color: silver;
-  margin-bottom: 10px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: silver;
+    margin-bottom: 10px;
 }
 
 body #resume-tab .resume .resume-item h5 {
-  font-size: 16px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 body #resume-tab .resume .resume-item ul {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 body #resume-tab .resume .resume-item ul li {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 body #resume-tab .resume .resume-item:last-child {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 body #resume-tab .resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: red;
-  border: 2px solid silver;
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: red;
+    border: 2px solid silver;
 }
 
 body #roulette-tab {
-  background-color: black;
-  color: white;
-  height: 100%;
-  width: 100%;
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
 }
 
 body #roulette-tab button {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 body #roulette-tab #numbers {
-  background-color: black;
-  display: flexbox;
-  margin-left: 4px;
+    background-color: black;
+    display: flexbox;
+    margin-left: 4px;
 }
 
 body #roulette-tab #numbers button {
-  height: 100px;
-  width: 120px;
-  border: 1px white solid;
-  margin: -3px;
-  background: red;
+    height: 100px;
+    width: 120px;
+    border: 1px white solid;
+    margin: -3px;
+    background: red;
 }
 
 body #roulette-tab #numbers .black {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 body #roulette-tab #numbers button:hover {
-  border: 2px grey solid;
+    border: 2px grey solid;
 }
 
 body #roulette-tab #playArea {
-  background-color: black;
-  margin-left: 2px;
+    background-color: black;
+    margin-left: 2px;
 }
 
 body #roulette-tab #playArea button:hover {
-  border: 2px grey solid;
+    border: 2px grey solid;
 }
 
 body #roulette-tab #playArea button {
-  background-color: #131313;
-  color: white;
-  border: white 1px solid;
-  margin: -14px;
+    background-color: #131313;
+    color: white;
+    border: white 1px solid;
+    margin: -14px;
 }
 
 body #roulette-tab #playArea #chooseRed {
-  background-color: red;
+    background-color: red;
 }
 
 body #roulette-tab #playArea #chooseBlack {
-  background-color: black;
+    background-color: black;
 }
 
 body #roulette-tab #playArea .divs {
-  margin-top: 3px;
-  margin-left: 2px;
-  height: 30px;
-  width: 32.8%;
+    margin-top: 3px;
+    margin-left: 2px;
+    height: 30px;
+    width: 32.8%;
 }
 
 body #roulette-tab #playArea .bottomRow {
-  margin-top: 5.5px;
-  margin-left: 2px;
-  width: 16.7%;
-  height: 30px;
-  padding: -2px;
+    margin-top: 5.5px;
+    margin-left: 2px;
+    width: 16.7%;
+    height: 30px;
+    padding: -2px;
 }
 
 body #roulette-tab #sub {
-  background-color: white;
-  border: 2px black solid;
-  color: black;
-  text-shadow: black;
-  margin-left: 44.5%;
-  margin-top: 50px;
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+    text-shadow: black;
+    margin-left: 44.5%;
+    margin-top: 50px;
 }
 
 body #roulette-tab #sub:hover {
-  border: 7px black solid;
+    border: 7px black solid;
 }
 /*# sourceMappingURL=style.css.map */
