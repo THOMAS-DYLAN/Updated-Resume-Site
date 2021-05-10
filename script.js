@@ -1,9 +1,16 @@
+
 $("#roulette-tab").hide(1);
-$("#landing-tab").hide(1);
-$("#gallery").hide(1)
+$("#resume-tab").hide(1);
+$("#gallery").hide(1);
 $(".landing-btn").on("click", function () {
     $("#landing-tab").show(1); 
     $("#resume-tab").hide(1);
+    $("#roulette-tab").hide(1);
+    $("#gallery").hide(1);
+})
+$(".resume-btn").on("click", function(){
+    $("#landing-tab").hide(1); 
+    $("#resume-tab").show(1);
     $("#roulette-tab").hide(1);
     $("#gallery").hide(1);
 })
